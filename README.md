@@ -25,7 +25,7 @@ Mission Class
  - Patrol
  - Humanitarian
  - Reconnaissance
- - LogisticsSupport
+ - LogisticsMission
 
 Personnel Class
  - Communications
