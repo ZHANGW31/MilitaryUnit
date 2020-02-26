@@ -4,7 +4,8 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class Vehicles
+    class Vehicle
     {
+        //TO DO IMPLEMENTATION
     }
 }

@@ -4,7 +4,9 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class IndirectFireWeapon : Weapon
+    class Humanitarian : Mission
     {
+        //TO DO IMPLEMENTATION
+        
     }
 }
