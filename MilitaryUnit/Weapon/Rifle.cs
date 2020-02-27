@@ -16,7 +16,7 @@ namespace MilitaryUnit
         }
         public void RifleMountingOptions()
         {
-
+            Console.WriteLine("Scope, Bipod, Rifle Sights, Laser Pointers, Flash Lights, Grenade Launcher");
         }
 
     }
