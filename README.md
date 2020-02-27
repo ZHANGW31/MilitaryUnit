@@ -19,7 +19,7 @@ namespace MilitaryUnit
 
 Weapon Class
  - Rifle
- - Pistol
+ - SideArm
  - Melee
 
 Mission Class
