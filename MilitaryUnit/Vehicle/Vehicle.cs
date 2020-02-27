@@ -6,6 +6,12 @@ namespace MilitaryUnit
 {
     class Vehicle
     {
-        //TO DO IMPLEMENTATION
+        public virtual void PersonnelCapacity()
+        {
+            Console.WriteLine("Default implementation of the PersonnelCapcity method");
+        }
+
+         
+
     }
 }
