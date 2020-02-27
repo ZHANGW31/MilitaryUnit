@@ -18,8 +18,9 @@ namespace MilitaryUnit
 **Base Classes and it's Derived Classes**
 
 Weapon Class
- - SmallCaliberWeapon
- - HighCaliberWeapon
+ - Rifle
+ - Pistol
+ - Melee
 
 Mission Class
  - Patrol
