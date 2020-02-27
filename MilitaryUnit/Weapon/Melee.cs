@@ -4,8 +4,7 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class HighCaliberWeapon : Weapon
+    class Melee : Weapon
     {
-        //TO DO IMPLEMENTATION
     }
 }
