@@ -6,6 +6,9 @@ namespace MilitaryUnit
 {
     class TroopCarrier : Vehicle
     {
-        //TO DO IMPLEMENTATION
+        public override void PersonnelCapacity()
+        {
+            Console.WriteLine();
+        }
     }
 }

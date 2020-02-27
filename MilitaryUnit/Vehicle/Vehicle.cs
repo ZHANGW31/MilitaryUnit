@@ -6,12 +6,22 @@ namespace MilitaryUnit
 {
     class Vehicle
     {
-        public virtual void PersonnelCapacity()
+        public void PersonnelCapacity(int capacity)
         {
-            Console.WriteLine("Default implementation of the PersonnelCapcity method");
+            Console.WriteLine($"This vehicle has a personnel capacity of: {capacity}");
         }
-
-         
+        public void Fuel(string fuelType)
+        {
+            Console.WriteLine($"This vehicle takes: {fuelType}");
+        }
+        public void TerrainCapability(string terrainType)
+        {
+            Console.WriteLine($"This vehicle is a {terrainType} vehicle.");
+        }
+        public virtual void HasGuns()
+        {
+            Console.WriteLine("No Guns"); //No guns is the default implementation here.
+        }
 
     }
 }
