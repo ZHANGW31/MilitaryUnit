@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class SideArm : Weapon
+    class Sidearm : Weapon
     {
         
     }
