@@ -36,8 +36,9 @@ Personnel Class
  - AirSupport
 
 Vehicle
- - TroopCarrier
- - GroundCombat
- - AirCombat
+ - ArmoredPersonnelCarrier
+ - Tank
+ - AttackHelicopter
+ - TransportHelicopter
 
 
