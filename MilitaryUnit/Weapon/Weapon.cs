@@ -6,6 +6,14 @@ namespace MilitaryUnit
 {
     class Weapon
     {
+        private string weaponName;
+
+        public string WeaponName
+        {
+            get { return weaponName; }
+            set { weaponName = value; }
+        }
+
         public void EffectiveRange(string effectiveRange)
         {
             Console.WriteLine($"The effective range of this weapon is: {effectiveRange}");

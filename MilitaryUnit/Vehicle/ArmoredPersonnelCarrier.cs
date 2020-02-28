@@ -10,7 +10,6 @@ namespace MilitaryUnit
         {
             Console.WriteLine("All Terrain Wheels, Tracks");
         }
-
         public override void HasArmor()
         {
             Console.WriteLine("Has Armor");

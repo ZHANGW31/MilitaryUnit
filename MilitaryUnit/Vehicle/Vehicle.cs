@@ -6,6 +6,13 @@ namespace MilitaryUnit
 {
     class Vehicle
     {
+        private string vehicleName;
+
+        public string VehicleName
+        {
+            get { return vehicleName; }
+            set { vehicleName = value; }
+        }
         public void PersonnelCapacity(int capacity)
         {
             Console.WriteLine($"This vehicle has a personnel capacity of: {capacity}");

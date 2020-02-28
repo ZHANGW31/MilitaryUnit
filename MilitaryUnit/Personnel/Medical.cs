@@ -6,6 +6,9 @@ namespace MilitaryUnit
 {
     class Medical : Personnel
     {
-        //TO DO IMPLEMENTATION
+        public override void SpecialtyTraining()
+        {
+            Console.WriteLine("This troop has recieved Medical training");
+        }
     }
 }

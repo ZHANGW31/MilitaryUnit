@@ -6,7 +6,7 @@ namespace MilitaryUnit
     {
         static void Main(string[] args)
         {
-           
+
         }
     }
 }

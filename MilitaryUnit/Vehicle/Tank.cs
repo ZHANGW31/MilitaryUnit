@@ -14,5 +14,9 @@ namespace MilitaryUnit
         {
             Console.WriteLine("105mm, 120mm, 50 caliber machine gun");
         }
+        public void Wheels()
+        {
+            Console.WriteLine("Tank has tracks");
+        }
     }
 }
