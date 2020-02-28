@@ -6,6 +6,21 @@ namespace MilitaryUnit
 {
     class Communications : Personnel
     {
-        //TO DO IMPLEMENTATION
+        public override void SpecialtyTraining()
+        {
+            Console.WriteLine("This troop has recieved communications training");
+        }
+        public override void Title()
+        {
+            Console.WriteLine("Radio Operator");
+        }
+        public override void SpecialEquipment()
+        {
+            Console.WriteLine("This troop is equipped with specialized communications equipment");
+        }
+        public void CommunicationCapabilities()
+        {
+            Console.WriteLine("Provides secure communications, and can call for fire.");
+        }
     }
 }

@@ -6,6 +6,17 @@ namespace MilitaryUnit
 {
     class Logistics : Personnel
     {
-        //TO DO IMPLEMENTATION
+        public override void SpecialtyTraining()
+        {
+            Console.WriteLine("This troop has recieved logistics training");
+        }
+        public override void Title()
+        {
+            Console.WriteLine("Logistician");
+        }
+        public void LogCapabilities()
+        {
+            Console.WriteLine("This troop can plan, coordinate and execute logistics missions");
+        }
     }
 }

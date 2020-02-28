@@ -7,6 +7,11 @@ namespace MilitaryUnit
     class Personnel
     {
         private string name;
+        private string rank;
+        public virtual void Title()
+        {
+            Console.WriteLine("Basic Troop");
+        }
         public string Name
         {
             get { return name; }
@@ -14,7 +19,7 @@ namespace MilitaryUnit
         }
         public virtual void SpecialtyTraining()
         {
-            Console.WriteLine("This troop is infantry"); //Default implementation for this virtual method.
+            Console.WriteLine("This troop has no specialty training."); //Default implementation for this virtual method.
         }
         public void BasicTraining()
         {
@@ -24,13 +29,9 @@ namespace MilitaryUnit
         {
             Console.WriteLine("This troop has standard combat and survival equipment.");
         }
-        public virtual void Title()
+        public virtual void SpecialEquipment()
         {
-
-        }
-        public virtual void Rank()
-        {
-
+            Console.WriteLine("This troop has no special equipment"); //Default implementation for this virtual method.
         }
     }
 }
