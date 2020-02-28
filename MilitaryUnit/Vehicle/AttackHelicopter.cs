@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class AirCombat : Vehicle
+    class AttackHelicopter : Vehicle
     {
         //TO DO IMPLEMENTATION
     }
