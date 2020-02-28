@@ -6,6 +6,17 @@ namespace MilitaryUnit
 {
     class LogisticsMission : Mission
     {
-        //TO DO IMPLEMENTATION
+        public override void MissionPurpose()
+        {
+            Console.WriteLine("The purpose of a logistics mission ranges from resupply, cargo delivery, vehicle recovery etc");
+        }
+        public void LogisticsPersonnel()
+        {
+            Console.WriteLine("Personnel on a logistics mission may vary, it can be anyone trained to drive the military vehicles.");
+        }
+        public void LogisticsEquipment()
+        {
+            Console.WriteLine("Depending on the mission size, the equipment includes communications equipment, vehicles, cargo, fuel, and supplies");
+        }
     }
 }

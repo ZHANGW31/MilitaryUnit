@@ -6,6 +6,17 @@ namespace MilitaryUnit
 {
     class Reconnaissance : Mission
     {
-        //TO DO IMPLEMENTATION
+        public override void MissionPurpose()
+        {
+            Console.WriteLine("The purpose of a Reconnaissance Mission is to gather intelligence on the enemy and scout the enemy territory");
+        }
+        public void ReconPersonnel()
+        {
+            Console.WriteLine("Recon missions requires specially trained personnel");
+        }
+        public void ReconEquipment()
+        {
+            Console.WriteLine("Special Recon Loadout and supplies.");
+        }
     }
 }
