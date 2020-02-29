@@ -6,14 +6,20 @@ namespace MilitaryUnit
 {
     class Sidearm : Weapon
     {
+        private string ammoType;
+        public Sidearm(string ammo)
+        {
+            ammoType = ammo;
+        }
+
         public override void WeaponEmployment()
         {
-            Console.WriteLine("Backup Weapon, In Close Spaces");
+            Console.WriteLine("It is used for: Backup Weapon, In Close Spaces");
         }
 
         public void SideArmAmmoTypes()
         {
-            Console.WriteLine("9mm , .45 ACP, .45 Auto ");
+            Console.WriteLine("It uses: " + ammoType + " ammunition.");
         }
 
         public void SideArmMounts()
