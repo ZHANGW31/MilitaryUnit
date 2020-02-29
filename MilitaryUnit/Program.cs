@@ -18,6 +18,15 @@ namespace MilitaryUnit
             m16.RifleAmmoTypes();
             m16.RifleMountingOptions();
 
+            Sidearm m1911 = new Sidearm("45 ACP");
+            m1911.WeaponName = "Colt M1911";
+
+            Console.WriteLine("\nThe " + m1911.WeaponName + " is a sidearm");
+            m1911.WeaponEmployment();
+            m1911.EffectiveRange("100 meters");
+            m1911.CarryStyle("holster");
+            m1911.SideArmAmmoTypes();
+            m1911.SideArmMounts();
 
         }
     }
