@@ -17,6 +17,10 @@ namespace MilitaryUnit
             get { return name; }
             set { name = value; }
         }
+        public void Rank()
+        {
+            Console.WriteLine("The rank of this troop is Corporal");
+        }
         public virtual void SpecialtyTraining()
         {
             Console.WriteLine("This troop has no specialty training."); //Default implementation for this virtual method.

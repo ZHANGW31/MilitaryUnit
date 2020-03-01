@@ -28,6 +28,23 @@ namespace MilitaryUnit
             m1911.SideArmAmmoTypes();
             m1911.SideArmMounts();
 
+           
+            ArmoredPersonnelCarrier amtrak = new ArmoredPersonnelCarrier();
+            amtrak.VehicleName = "amtrack";
+
+            Console.WriteLine("\n The " + amtrak.VehicleName + "is an armored personnel carrier");
+            amtrak.HasArmor();
+            amtrak.HasGuns();
+            amtrak.PersonnelCapacity(10);
+            amtrak.TerrainCapability("This is an all terrain vehicle");
+
+            Console.WriteLine();
+            Communications joe = new Communications();
+            joe.Name = "Joe";
+            joe.Title();
+            joe.Rank();
+            joe.SpecialEquipment();
+            joe.SpecialtyTraining();
         }
     }
 }
