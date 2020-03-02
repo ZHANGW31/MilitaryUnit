@@ -4,23 +4,23 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class AirSupport : Personnel
+    class MedicalTroop : Personnel
     {
         public override void SpecialtyTraining()
         {
-            Console.WriteLine("This troop has recieved pilot training");
+            Console.WriteLine("This troop has recieved Medical training");
         }
         public override void Title()
         {
-            Console.WriteLine("Pilot");
+            Console.WriteLine("Combat Medic");
         }
         public override void SpecialEquipment()
         {
-            Console.WriteLine("This troop is equipped with pilot flight equipment and survival kit");
+            Console.WriteLine("This troop is equipped with additional medical equipment");
         }
         public void MedCapabilities()
         {
-            Console.WriteLine("Provides air support");
+            Console.WriteLine("Provides medical assistance to wounded");
         }
     }
 }

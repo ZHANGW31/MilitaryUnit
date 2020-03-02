@@ -32,19 +32,20 @@ namespace MilitaryUnit
             ArmoredPersonnelCarrier amtrak = new ArmoredPersonnelCarrier();
             amtrak.VehicleName = "amtrack";
 
-            Console.WriteLine("\n The " + amtrak.VehicleName + "is an armored personnel carrier");
+            Console.WriteLine("\nThe " + amtrak.VehicleName + "is an armored personnel carrier");
             amtrak.HasArmor();
             amtrak.HasGuns();
             amtrak.PersonnelCapacity(10);
             amtrak.TerrainCapability("This is an all terrain vehicle");
 
             Console.WriteLine();
-            Communications joe = new Communications();
-            joe.Name = "Joe";
-            joe.Title();
-            joe.Rank();
-            joe.SpecialEquipment();
-            joe.SpecialtyTraining();
+            CommunicationsTroop comJoe = new CommunicationsTroop();
+            comJoe.Name = "Joe";
+            comJoe.Rank = "Corporal";
+            comJoe.DisplayRankAndName();
+            comJoe.Title();
+            comJoe.SpecialEquipment();
+            comJoe.SpecialtyTraining();
         }
     }
 }

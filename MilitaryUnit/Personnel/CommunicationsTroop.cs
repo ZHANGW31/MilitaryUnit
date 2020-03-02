@@ -4,8 +4,9 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class Communications : Personnel
+    class CommunicationsTroop : Personnel
     {
+
         public override void SpecialtyTraining()
         {
             Console.WriteLine("This troop has recieved communications training");

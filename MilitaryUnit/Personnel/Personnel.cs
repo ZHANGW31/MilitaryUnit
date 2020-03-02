@@ -8,18 +8,24 @@ namespace MilitaryUnit
     {
         private string name;
         private string rank;
-        public virtual void Title()
-        {
-            Console.WriteLine("Basic Troop");
-        }
+
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
-        public void Rank()
+        public string Rank
         {
-            Console.WriteLine("The rank of this troop is Corporal");
+            get { return rank; }
+            set { rank = value; }
+        }
+        public void DisplayRankAndName()
+        {
+            Console.WriteLine(rank + " " + name);
+        }
+        public virtual void Title()
+        {
+            Console.WriteLine("Basic Troop");
         }
         public virtual void SpecialtyTraining()
         {

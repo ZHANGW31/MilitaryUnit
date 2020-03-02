@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MilitaryUnit
 {
-    class Combat : Personnel
+    class CombatTroop : Personnel
     {
         public override void SpecialtyTraining()
         {
