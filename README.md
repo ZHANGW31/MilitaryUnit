@@ -1,6 +1,6 @@
 # MilitaryUnit
 This repository is for practice and implementation of inheritance through the context of a military unit.
-The demonstrations and implementations are done with writelines to keep things simple.
+The demonstrations and implementations are done with writelines to keep things simple. Also has demonstration on method overriding through the usage of virtual and override keywords.
 
 **Inheritance**
 
